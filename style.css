@@ -75,6 +75,7 @@ nav li a {
 /* animation flash */
 ul {
   width: 100%;
+  text-align: center;
 }
 
 ul li {
@@ -207,11 +208,25 @@ ul li:nth-child(18) {
 
 .container-à-propos, h2{
   display: flex;
-  flex: center;
+  flex-wrap: wrap;
+  
 }
 
-h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.coordonnées{
+  width: 50px;
+
+}
+.droite, img{
+  float: right;
+}
+
+
+
+
+
+ 
+.social_header{
+  display: flex;
+  justify-content: start;
+} 
+  
