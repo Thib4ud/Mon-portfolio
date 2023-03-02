@@ -6,10 +6,7 @@
     list-style-type:none;
     text-decoration:none;
     color: rgb(156, 150, 141);
-    
-    
-    
-    }
+}
  
  hr{
   width: 5rem;
@@ -44,10 +41,9 @@ h1{
     justify-content: space-around;
   }
   
-  .logo,
-  nav ul {
-    width: 40 %;
-  }
+  .logo,nav ul {
+    width: 90%;
+}
     
   nav ul {
     display: flex;
@@ -62,12 +58,8 @@ h1{
     font-size: 10px;
     font-weight: bold;
     cursor: pointer;
-    
-
-
+  
 }
-
-
 
 /* animation flash */
 ul {
